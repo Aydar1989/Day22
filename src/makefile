@@ -6,5 +6,3 @@ cipher:
 	$(CC) $(CFLAGS) cipher.c -o $(BUILD)cipher
 clean:
 	rm -rf $(BUILD)cipher
-rebuild:
-	clean cipher
